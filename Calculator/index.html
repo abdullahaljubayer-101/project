@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./style.css" />
+
+        <title>Calculator | Abdullah Al Jubayer</title>
+        <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="display">
+                <p id="monitor-01" class="monitor-01"></p>
+                <p id="monitor-02" class="monitor-02"></p>
+            </div>
+
+            <div class="keyboard">
+                <div class="key-row">
+                    <div onclick="main(this)" id="C" class="key-col key-C">C</div>
+                    <div onclick="main(this)" id="(" class="key-col key-fb">(</div>
+                    <div onclick="main(this)" id=")" class="key-col key-lb">)</div>
+                    <div onclick="main(this)" id="/" class="key-col key-division">/</div>
+                </div>
+                <div class="key-row">
+                    <div onclick="main(this)" id="7" class="key-col key-7">7</div>
+                    <div onclick="main(this)" id="8" class="key-col key-8">8</div>
+                    <div onclick="main(this)" id="9" class="key-col key-9">9</div>
+                    <div onclick="main(this)" id="*" class="key-col key-multiplication">*</div>
+                </div>
+                <div class="key-row">
+                    <div onclick="main(this)" id="4" class="key-col key-4">4</div>
+                    <div onclick="main(this)" id="5" class="key-col key-5">5</div>
+                    <div onclick="main(this)" id="6" class="key-col key-6">6</div>
+                    <div onclick="main(this)" id="-" class="key-col key-subtraction">-</div>
+                </div>
+                <div class="key-row">
+                    <div onclick="main(this)" id="1" class="key-col key-1">1</div>
+                    <div onclick="main(this)" id="2" class="key-col key-2">2</div>
+                    <div onclick="main(this)" id="3" class="key-col key-3">3</div>
+                    <div onclick="main(this)" id="+" class="key-col key-addition">+</div>
+                </div>
+                <div class="key-row">
+                    <div onclick="main(this)" id="0" class="key-col key-0">0</div>
+                    <div onclick="main(this)" id="." class="key-col key-point">.</div>
+                    <div onclick="main(this)" id="=" class="key-col key-equal">=</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

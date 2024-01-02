@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./style.css" />
+        <script src="https://kit.fontawesome.com/23359efeba.js" crossorigin="anonymous"></script>
+
+        <title>To-Do List | Abdullah Al Jubayer</title>
+        <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <input type="text" id="itemInput" />
+                <input type="submit" value="Add" id="add" class="add" />
+            </div>
+
+            <div id="items" class="items"></div>
+
+            <template id="template">
+                <div id="item" class="item">
+                    <input type="checkbox" id="checkboxInput" class="checkbox" />
+                    <p id="itemDescription" class="itemDescription">World</p>
+                    <i class="fa-regular fa-trash-can delete" id="remove"></i>
+                </div>
+            </template>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

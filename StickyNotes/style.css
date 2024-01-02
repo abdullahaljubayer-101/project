@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container,
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.note {
+    height: 180px;
+    width: 180px;
+    margin: 20px;
+    resize: none;
+    padding: 10px;
+}
+
+.add {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    font-size: 80px;
+}

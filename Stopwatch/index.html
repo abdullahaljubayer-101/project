@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./style.css" />
+
+        <title>Stopwatch | Abdullah Al Jubayer</title>
+        <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon" />
+    </head>
+
+    <body>
+        <div class="container">
+            <p id="projectTitle" class="projectTitle"></p>
+
+            <p id="display" class="display">00:00:00</p>
+
+            <div class="buttonList">
+                <button id="start" class="button" onclick="startF()">Start</button>
+                <button id="stop" class="button" onclick="stopF()">Stop</button>
+                <button id="reset" class="button" onclick="resetF()">Reset</button>
+            </div>
+
+            <div class="bar"></div>
+
+            <template id="template">
+                <button id="project" class="button">Project</button>
+            </template>
+
+            <div class="projectList">
+                <input id="inputProject" class="inputProject" type="text" />
+                <button id="addProject" class="button" onclick="addProjectF()">Add Project</button>
+            </div>
+
+            <div id="projectList" class="projectList"></div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
